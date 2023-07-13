@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+
+    <link rel="icon" href="./assets/images/bear.jpg" />
+		<title>Portfolio</title>
+    <meta name="description" content="Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+
+		<script defer src="./js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <!-- <a class="nav-title-link" href="./index.html"> -->
+        <span class="nav-title">Portfolio</span>
+        <a class="button" href="https://mail.google.com/mail/?view=cm&to=santiagoemezeta@gmail.com" target="_blank">
+          <span class="button-text">Contact Me</span>
+        </a>
+      <!-- </a> -->
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PORTFOLIO HEADER -->
+      <div id="portfolio-header">
+        <div id="portfolio-header-image-container">
+          <img src="./assets/images/bear.jpg" class="portfolio-header-image">
+          
+          <a class="no-underline-me" target="_blank" href="https://github.com/Ssamza">
+            <span class="button-Me" >&nbsp;Me</span>
+            <!-- <image src="./assets/icons/github.svg" class="github-icon"/> -->
+          </a>
+        </div>
+        
+        <div id="portfolio-header-text-container">
+            <div class="header-text">
+              <span class="main-title">Hey, 
+                <br>
+                I'm Santiago Morales.</span>
+              
+              <div class="body-descrip">I’m a Full-Stack Web Developer, Architect & web3 enthusiast with passion for crafting engaging and user-centric digital experiences.</div>
+            </div>
+            <a class="button" id="my-work-link">
+              <span class="button-text">Check out my projects</span> 
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+        </div>
+      </div>
+
+      <!-- ABOUT SECTION -->
+
+      <div id="about-section">
+        <span class="subheader-text">My Background / About Me</span>
+        <div class="about-section-content">
+          <div class="body-text">
+            I am a dedicated full-stack developer with a strong inclination towards backend development. However, I also possess solid front-end skills, particularly in technologies such as React-Redux. 
+            I have a keen eye for applying CSS styles to create visually appealing and user-friendly web application views.
+            <br>
+            <br>
+            On the back end, I specialize in utilizing technologies such as Node.js, Express, and SQL. I excel at designing and implementing robust architectures, creating efficient data models, and building secure APIs. 
+            I am passionate about organizing data logic, establishing clear routes, as well as ensuring cohesive relationships within the database.
+          </div>
+          <div class="body-text">
+            My background in architecture design and construction has instilled in me a deep appreciation for delivering high-quality work within deadlines.
+            I am a proactive problem-solver who enjoys tackling challenges and finding innovative solutions.
+            Collaboration and effective communication are important aspects of my work philosophy. 
+            I thrive in team environments where I can leverage my leadership skills and contribute to meaningful projects alongside like-minded individuals.
+            <br>
+            <br>
+            Thank you for taking the time to learn more about me.
+            I am excited about the opportunity to bring my skills and experience to contribute to the success of the team.
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECTS / MY WORK SECTION -->
+      <div id="my-work-section">
+        <span class="subheader-text">Projects</span>
+
+        <div class="projects-container">
+          <!-- 
+            Project card strcuture 
+            <div class="project-card">
+              <img src="./assets/images/IMAGE_NAME" class="project-image">
+              <div class="project-card-text-container">
+                <div class="subheader-text project-title">PROJECT_NAME</div>
+                <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
+              </div>
+              <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
+                <span class="button-text">Read More</span>
+                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+              </a>
+            </div>
+          -->
+
+          <div class="project-card">
+            <img src="./assets/images/desktop.jpeg" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Project Name</div>
+              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+            </div>
+            <a class="button" href="./project-pages/project-template.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/code.jpeg" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Project Name</div>
+              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+            </div>
+            <a class="button" href="./project-pages/project-template.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/sketchbook.jpeg" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Super Long Project Name That Should be Hidden</div>
+              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+            </div>
+            <a class="button" href="./project-pages/project-template.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+        <image src="./assets/icons/instagram.svg" class="footer-icon"/>
+      </a> -->
+
+      <!-- <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+        <image src="./assets/icons/twitter.svg" class="footer-icon"/>
+      </a> -->
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/morales-santiago/">
+        <image src="../assets/icons/linkedin.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
