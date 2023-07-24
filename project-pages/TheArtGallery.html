@@ -50,9 +50,13 @@
         
           (this should be the same across all pages)
         -->
-        <a class="button" href="mailto:whitevans.eth@gmail.com">
-          <span class="button-text">Contact Me</span>
-        </a>
+        <a
+				class="button"
+				href="https://mail.google.com/mail/?view=cm&to=santiagoemezeta@gmail.com"
+				target="_blank"
+			>
+				<span class="button-text">Contact Me</span>
+			</a>
       </a>
     </div>
 
@@ -68,9 +72,14 @@
             - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
             - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
           -->
-        <div class="main-title">The Art</div>
-        <image class="project-header-image" src="../assets/images/desktop.jpeg">
-          <div class="body-title">/login</div>
+        <div class="main-title">The Art Gallery</div>
+        <br>
+        <div>
+        <a href="../assets/images/ArtUserDetail.png" target="_blank">
+        <image class="project-header-image" src="../assets/images/ArtUserDetail.png">
+        </a>
+          <div class="body-title">You are able to see the profile info of other artists.</div>
+        </div>
       </div>
 
       <!-- PROJECT DETAILS -->
@@ -81,10 +90,19 @@
         - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
       -->
       <div id="project-details">
-        <div class="subheader-text">Project Details / Background</div>
+        <div class="subheader-text">Project Details</div>
         <div class="project-details-content">
-          <div class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.</div>
-          <div class="body-text">Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut.</div>
+          <div class="body-text">An online gallery for emerging artists to share, inspire, and
+            trade their artwork. Providing a platform for creative
+            individuals to showcase their talent, find inspiration in the
+            works of fellow artists, and engage in buying and selling art
+            pieces. Discover a vibrant community of emerging artists and
+            their captivating creations.
+        </div>
+          <div class="body-text">
+            The platform fosters collaboration and connections, encouraging artists to exchange ideas, feedback, and support through reviews and ratings.
+            Each user has access to contact details, facilitating seamless communication and fostering meaningful interactions between emerging artists.
+          </div>
         </div>
       </div>
 
@@ -117,17 +135,24 @@
                   - IMAGE_CAPTION: to the caption of the image
             -->
             <div class="gallery-image-container half-width">
-              <img src="../assets/images/code.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
+              <a href="../assets/images/ArtDetail.png" target="_blank"> <!-- Aquí agregamos el enlace -->
+                <img src="../assets/images/ArtDetail.png" class="gallery-image">
+              </a>
+              <span class="image-caption">You are able to see the details of a specific Artwork.</span>
             </div>
             <div class="gallery-image-container half-width">
-              <img src="../assets/images/sketchbook.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
+              <a href="../assets/images/ArtFavs.png" target="_blank"> <!-- Aquí agregamos el enlace -->
+                <img src="../assets/images/ArtFavs.png" class="gallery-image">
+              </a>
+              <span class="image-caption">You are able to save your favorite artworks.</span>
             </div>
             <div class="gallery-image-container">
-              <img src="../assets/images/camera.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
+              <a href="../assets/images/ArtHome.png" target="_blank"> <!-- Aquí agregamos el enlace -->
+                <img src="../assets/images/ArtHome.png" class="gallery-image">
+              </a>
+              <span class="image-caption">Art showcase by an artist in our /home (artsy_boy).</span>
             </div>
+            
         </div>
       </div>
     </div>
