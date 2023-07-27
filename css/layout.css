@@ -83,7 +83,7 @@ body {
 /* Project Cards */
 
 .project-card {
-	max-width: calc((100% - 32px) / 2);
+	max-width: calc((100% - 32px) / 2); /* 2 number of divisions */
 	display: flex;
 	flex-direction: column;
 	gap: 25px;
